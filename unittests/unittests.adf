@@ -1,0 +1,57 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=unittests
+
+[Library]
+unittests=.\unittests\unittests.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Lattice MACHXO3L
+fileopenfolder=.
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+unittests=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=fifo_mem|structure_con|1  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/fifo_mem.vhd=-1
+/test_fifo.sv=-1
+/fifo.vhd=-1
+
+[Files.Data]
+.\src\fifo_mem.vhd=VHDL Source Code
+.\src\test_fifo.sv=SystemVerilog Source Code
+.\src\fifo.vhd=VHDL Source Code
+
