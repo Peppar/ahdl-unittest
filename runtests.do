@@ -15,6 +15,11 @@ set testname "FIFO"
 set testtop test_fifo
 do $testroot\runonetest.do
 
+
+#set testname "Next module"
+#set testtop test_next_module
+#do $testroot\runonetest.do
+
 echo "Unit test run finished at" [gettime] >> $logpath
 
 set transcript on

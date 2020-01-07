@@ -14,4 +14,5 @@ echo Test log:
 echo ========
 echo.
 type test.log
+pause
 

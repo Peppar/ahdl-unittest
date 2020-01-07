@@ -41,7 +41,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=fifo_mem|structure_con|1  
+HierarchyInformation=fifo_mem|structure_con|1   
 ShowHide=ShowTopLevel
 Selected=
 
